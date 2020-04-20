@@ -69,6 +69,7 @@ public class PWSpawnerScript : MonoBehaviour
             //    //powerUpScript.powerUpType = powerUpType.;
             //}
 
+            nextSpawn = Time.time + whenToSpawn;
         }
     }
 }
